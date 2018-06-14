@@ -1,6 +1,3 @@
-/*
- * Complete Project Details http://randomnerdtutorials.com
- */
 
 // Include Software Serial library to communicate with GSM
 #include <SoftwareSerial.h>
