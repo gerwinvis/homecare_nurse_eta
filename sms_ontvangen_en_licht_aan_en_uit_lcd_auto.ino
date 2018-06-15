@@ -199,7 +199,7 @@ void sendSMS(String message){
 
   // REPLACE THE X's WITH THE RECIPIENT'S MOBILE NUMBER
   // USE INTERNATIONAL FORMAT CODE FOR MOBILE NUMBERS
-  SIM900.println("AT + CMGS = \"0031640595779\""); 
+  SIM900.println("AT + CMGS = \"**********\""); 
   delay(100);
   // Send the SMS
   SIM900.println(message); 
