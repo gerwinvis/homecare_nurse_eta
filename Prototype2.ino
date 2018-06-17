@@ -243,7 +243,7 @@ void sendSMS(String message){
   // AT command to set SIM900 to SMS mode
   fona.print("AT+CMGF=1\r"); 
   delay(100);
-  fona.println("AT + CMGS = \"0031640595779\""); 
+  fona.println("AT + CMGS = \"************\""); 
   delay(100);
   // Send the SMS
   fona.println(message); 
